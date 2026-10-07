@@ -990,20 +990,20 @@
 <span class="normal"><a href="#__codelineno-0-11">11</a></span>
 <span class="normal"><a href="#__codelineno-0-12">12</a></span>
 <span class="normal"><a href="#__codelineno-0-13">13</a></span>
-<span class="normal"><a href="#__codelineno-0-14">14</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="mo">01</span><span class="o">-</span><span class="n">structure</span><span class="o">/</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="err">├──</span><span class="w"> </span><span class="n">bin</span><span class="o">/</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">console</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="err">├──</span><span class="w"> </span><span class="n">config</span><span class="o">/</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="err">│</span><span class="w">   </span><span class="err">├──</span><span class="w"> </span><span class="n">packages</span><span class="o">/</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="err">│</span><span class="w">   </span><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">framework</span><span class="p">.</span><span class="na">yaml</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">bundles</span><span class="p">.</span><span class="na">php</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="err">├──</span><span class="w"> </span><span class="kd">public</span><span class="o">/</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">index</span><span class="p">.</span><span class="na">php</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="err">├──</span><span class="w"> </span><span class="n">src</span><span class="o">/</span>
-<a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">Kernel</span><span class="p">.</span><span class="na">php</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="err">├──</span><span class="w"> </span><span class="n">var</span><span class="o">/</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="err">├──</span><span class="w"> </span><span class="p">.</span><span class="na">env</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="err">└──</span><span class="w"> </span><span class="n">composer</span><span class="p">.</span><span class="na">json</span>
+<span class="normal"><a href="#__codelineno-0-14">14</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a>01-structure/
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>├── bin/
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a>│   └── console
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a>├── config/
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a>│   ├── packages/
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a>│   │   └── framework.yaml
+<a id="__codelineno-0-7" name="__codelineno-0-7"></a>│   └── bundles.php
+<a id="__codelineno-0-8" name="__codelineno-0-8"></a>├── public/
+<a id="__codelineno-0-9" name="__codelineno-0-9"></a>│   └── index.php
+<a id="__codelineno-0-10" name="__codelineno-0-10"></a>├── src/
+<a id="__codelineno-0-11" name="__codelineno-0-11"></a>│   └── Kernel.php
+<a id="__codelineno-0-12" name="__codelineno-0-12"></a>├── var/
+<a id="__codelineno-0-13" name="__codelineno-0-13"></a>├── .env
+<a id="__codelineno-0-14" name="__codelineno-0-14"></a>└── composer.json
 </code></pre></div></td></tr></table></div>
 <ul>
 <li><strong><em>[public/index.php]</em></strong> : le <strong>point d&#x27;entrée</strong> de l&#x27;application. Toutes les requêtes HTTP, quelle que soit leur URL, sont confiées à ce fichier. Le dossier <strong><em>[public]</em></strong> est le seul dossier que le serveur web publie : il contient aussi les fichiers statiques (feuilles de style, images, scripts), et seulement eux ;</li>
@@ -1163,21 +1163,21 @@
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span>
 <span class="normal"><a href="#__codelineno-4-2">2</a></span>
 <span class="normal"><a href="#__codelineno-4-3">3</a></span>
-<span class="normal"><a href="#__codelineno-4-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="err">#</span><span class="w"> </span><span class="n">config</span><span class="o">/</span><span class="n">packages</span><span class="o">/</span><span class="n">framework</span><span class="p">.</span><span class="na">yaml</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">la</span><span class="w"> </span><span class="n">configuration</span><span class="w"> </span><span class="n">du</span><span class="w"> </span><span class="n">FrameworkBundle</span><span class="p">,</span><span class="w"> </span><span class="n">le</span><span class="w"> </span><span class="n">cœur</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Symfony</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="nl">framework</span><span class="p">:</span>
-<a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="w">    </span><span class="err">#</span><span class="w"> </span><span class="n">la</span><span class="w"> </span><span class="n">clé</span><span class="w"> </span><span class="n">secrète</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">l</span><span class="err">'</span><span class="n">application</span><span class="p">,</span><span class="w"> </span><span class="n">lue</span><span class="w"> </span><span class="n">dans</span><span class="w"> </span><span class="n">le</span><span class="w"> </span><span class="n">fichier</span><span class="w"> </span><span class="p">.</span><span class="na">env</span>
-<a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="w">    </span><span class="n">secret</span><span class="p">:</span><span class="w"> </span><span class="err">'</span><span class="o">%</span><span class="n">env</span><span class="p">(</span><span class="n">APP_SECRET</span><span class="p">)</span><span class="o">%</span><span class="err">'</span>
+<span class="normal"><a href="#__codelineno-4-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="c1"># config/packages/framework.yaml : la configuration du FrameworkBundle, le cœur de Symfony</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="nt">framework</span><span class="p">:</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="w">    </span><span class="c1"># la clé secrète de l'application, lue dans le fichier .env</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="w">    </span><span class="nt">secret</span><span class="p">:</span><span class="w"> </span><span class="s">'%env(APP_SECRET)%'</span>
 </code></pre></div></td></tr></table></div>
 <p><em>[YAML]</em> est un format de texte qui décrit des données par l&#x27;indentation : <strong><em>[framework]</em></strong> (la clé du FrameworkBundle) contient la clé <strong><em>[secret]</em></strong>. Les lignes qui commencent par <strong><em>[#]</em></strong> sont des commentaires. La valeur <strong><em>[%env(APP_SECRET)%]</em></strong> est une référence à la variable <strong><em>[APP_SECRET]</em></strong>, lue dans l&#x27;<strong>environnement</strong> du processus, ou, à défaut, dans le fichier <strong><em>[.env]</em></strong> :</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1">1</a></span>
 <span class="normal"><a href="#__codelineno-5-2">2</a></span>
 <span class="normal"><a href="#__codelineno-5-3">3</a></span>
 <span class="normal"><a href="#__codelineno-5-4">4</a></span>
-<span class="normal"><a href="#__codelineno-5-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="gh"># .env : la configuration de l'application, propre à chaque installation</span>
-<a id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="gh"># dev : l'environnement de développement ; prod : la production</span>
-<a id="__codelineno-5-3" name="__codelineno-5-3"></a>APP_ENV=dev
-<a id="__codelineno-5-4" name="__codelineno-5-4"></a><span class="gh"># la clé secrète de l'application (32 caractères hexadécimaux aléatoires)</span>
-<a id="__codelineno-5-5" name="__codelineno-5-5"></a>APP_SECRET=6f1c0b2e9a8d4f37b5e2c1d0a9f8e7d6
+<span class="normal"><a href="#__codelineno-5-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="c1"># .env : la configuration de l'application, propre à chaque installation</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="c1"># dev : l'environnement de développement ; prod : la production</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3"></a><span class="na">APP_ENV</span><span class="o">=</span><span class="s">dev</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4"></a><span class="c1"># la clé secrète de l'application (32 caractères hexadécimaux aléatoires)</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5"></a><span class="na">APP_SECRET</span><span class="o">=</span><span class="s">6f1c0b2e9a8d4f37b5e2c1d0a9f8e7d6</span>
 </code></pre></div></td></tr></table></div>
 <ul>
 <li>ligne 3 : l&#x27;<strong>environnement</strong> de l&#x27;application : <strong><em>[dev]</em></strong> pour le développement, <strong><em>[prod]</em></strong> pour la production (et <strong><em>[test]</em></strong> pour les tests automatiques). L&#x27;environnement choisit la configuration : un fichier <strong><em>[config/packages/prod/xxx.yaml]</em></strong> ne serait lu qu&#x27;en production. Il fixe aussi le <strong>mode debug</strong>, actif par défaut sauf en production (la variable <strong><em>[APP_DEBUG]</em></strong> permettrait de le fixer autrement) : une exception non traitée affiche alors une page détaillée (exemple 03), et <em>[Symfony]</em> recompile sa configuration dès qu&#x27;elle change. Ce mode est fait pour le développement, et seulement pour lui : la page d&#x27;erreur révèle le code source et la configuration de l&#x27;application ;</li>
@@ -1234,16 +1234,16 @@
 <span class="normal"><a href="#__codelineno-7-7"> 7</a></span>
 <span class="normal"><a href="#__codelineno-7-8"> 8</a></span>
 <span class="normal"><a href="#__codelineno-7-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-7-10">10</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1"></a>{
-<a id="__codelineno-7-2" name="__codelineno-7-2"></a>    "name": "exemples/01-structure",
-<a id="__codelineno-7-3" name="__codelineno-7-3"></a>    "description": "Exemple 01 : la structure d'une application Symfony",
-<a id="__codelineno-7-4" name="__codelineno-7-4"></a>    "type": "project",
-<a id="__codelineno-7-5" name="__codelineno-7-5"></a>    "autoload": {
-<a id="__codelineno-7-6" name="__codelineno-7-6"></a>        "psr-4": {
-<a id="__codelineno-7-7" name="__codelineno-7-7"></a>            "App\\": "src/"
-<a id="__codelineno-7-8" name="__codelineno-7-8"></a>        }
-<a id="__codelineno-7-9" name="__codelineno-7-9"></a>    }
-<a id="__codelineno-7-10" name="__codelineno-7-10"></a>}
+<span class="normal"><a href="#__codelineno-7-10">10</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="p">{</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2"></a><span class="w">    </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"exemples/01-structure"</span><span class="p">,</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3"></a><span class="w">    </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Exemple 01 : la structure d'une application Symfony"</span><span class="p">,</span>
+<a id="__codelineno-7-4" name="__codelineno-7-4"></a><span class="w">    </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"project"</span><span class="p">,</span>
+<a id="__codelineno-7-5" name="__codelineno-7-5"></a><span class="w">    </span><span class="nt">"autoload"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-6" name="__codelineno-7-6"></a><span class="w">        </span><span class="nt">"psr-4"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-7" name="__codelineno-7-7"></a><span class="w">            </span><span class="nt">"App\\"</span><span class="p">:</span><span class="w"> </span><span class="s2">"src/"</span>
+<a id="__codelineno-7-8" name="__codelineno-7-8"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-7-9" name="__codelineno-7-9"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-7-10" name="__codelineno-7-10"></a><span class="p">}</span>
 </code></pre></div></td></tr></table></div>
 <p>C&#x27;est un document JSON. Il n&#x27;est pas là pour <em>[Composer]</em> (les bibliothèques des exemples sont décrites par le fichier <strong><em>[exemples/composer.json]</em></strong>, cf. introduction), mais pour le noyau : <em>[Symfony]</em> cherche le <strong>dossier du projet</strong> en remontant, depuis le fichier <strong><em>[src/Kernel.php]</em></strong>, jusqu&#x27;au premier dossier qui contient un fichier <strong><em>[composer.json]</em></strong>. C&#x27;est à partir de lui qu&#x27;il trouve tous les autres (<strong><em>[config]</em></strong>, <strong><em>[var]</em></strong>, <strong><em>[templates]</em></strong>...). Le fichier <strong><em>[composer.json]</em></strong> d&#x27;un projet ordinaire contient aussi la liste de ses bibliothèques, et la règle PSR-4 de ses classes (lignes 5-9), que nos exemples déclarent eux-mêmes au chargeur (ligne 12 de <strong><em>[public/index.php]</em></strong>).</p>
 <h3 id="215-execution">2.1.5. <span style="color: #1f4d78">Exécution</span></h3>
@@ -1513,10 +1513,10 @@
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-15-1">1</a></span>
 <span class="normal"><a href="#__codelineno-15-2">2</a></span>
 <span class="normal"><a href="#__codelineno-15-3">3</a></span>
-<span class="normal"><a href="#__codelineno-15-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1"></a><span class="gh"># config/routes.yaml : les routes de l'application sont décrites par les attributs</span>
-<a id="__codelineno-15-2" name="__codelineno-15-2"></a><span class="gh"># #[Route] des contrôleurs (les classes du dossier src/ qui en portent)</span>
-<a id="__codelineno-15-3" name="__codelineno-15-3"></a>controllers:
-<a id="__codelineno-15-4" name="__codelineno-15-4"></a>    resource: routing.controllers
+<span class="normal"><a href="#__codelineno-15-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1"></a><span class="c1"># config/routes.yaml : les routes de l'application sont décrites par les attributs</span>
+<a id="__codelineno-15-2" name="__codelineno-15-2"></a><span class="c1"># #[Route] des contrôleurs (les classes du dossier src/ qui en portent)</span>
+<a id="__codelineno-15-3" name="__codelineno-15-3"></a><span class="nt">controllers</span><span class="p">:</span>
+<a id="__codelineno-15-4" name="__codelineno-15-4"></a><span class="w">    </span><span class="nt">resource</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">routing.controllers</span>
 </code></pre></div></td></tr></table></div>
 <p>Le fichier <strong><em>[config/routes.yaml]</em></strong> décrit les routes de l&#x27;application, ou, comme ici, dit où les trouver. La clé <strong><em>[controllers]</em></strong> est un nom libre. La ressource <strong><em>[routing.controllers]</em></strong> désigne les routes déclarées par les attributs <strong><em>[#[Route]]</em></strong> des <strong>contrôleurs</strong> que connaît l&#x27;application. Et c&#x27;est le fichier <strong><em>[config/services.yaml]</em></strong> qui les lui fait connaître :</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-16-1"> 1</a></span>
@@ -1533,13 +1533,13 @@
 <a id="__codelineno-16-2" name="__codelineno-16-2"></a><span class="c1"># classes du dossier src/ sont déclarées au conteneur : elles peuvent recevoir les</span>
 <a id="__codelineno-16-3" name="__codelineno-16-3"></a><span class="c1"># objets dont elles ont besoin (autowire), et Symfony les configure d'après leurs</span>
 <a id="__codelineno-16-4" name="__codelineno-16-4"></a><span class="c1"># attributs (autoconfigure : #[Route] en fait des contrôleurs)</span>
-<a id="__codelineno-16-5" name="__codelineno-16-5"></a><span class="n">services</span><span class="p">:</span>
-<a id="__codelineno-16-6" name="__codelineno-16-6"></a>    <span class="n">_defaults</span><span class="p">:</span>
-<a id="__codelineno-16-7" name="__codelineno-16-7"></a>        <span class="n">autowire</span><span class="p">:</span> <span class="n">true</span>
-<a id="__codelineno-16-8" name="__codelineno-16-8"></a>        <span class="n">autoconfigure</span><span class="p">:</span> <span class="n">true</span>
+<a id="__codelineno-16-5" name="__codelineno-16-5"></a><span class="nt">services</span><span class="p">:</span>
+<a id="__codelineno-16-6" name="__codelineno-16-6"></a><span class="w">    </span><span class="nt">_defaults</span><span class="p">:</span>
+<a id="__codelineno-16-7" name="__codelineno-16-7"></a><span class="w">        </span><span class="nt">autowire</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a id="__codelineno-16-8" name="__codelineno-16-8"></a><span class="w">        </span><span class="nt">autoconfigure</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <a id="__codelineno-16-9" name="__codelineno-16-9"></a>
-<a id="__codelineno-16-10" name="__codelineno-16-10"></a>    <span class="n">App</span>\<span class="p">:</span>
-<a id="__codelineno-16-11" name="__codelineno-16-11"></a>        <span class="n">resource</span><span class="p">:</span> <span class="s1">'../src/'</span>
+<a id="__codelineno-16-10" name="__codelineno-16-10"></a><span class="w">    </span><span class="nt">App\</span><span class="p">:</span>
+<a id="__codelineno-16-11" name="__codelineno-16-11"></a><span class="w">        </span><span class="nt">resource</span><span class="p">:</span><span class="w"> </span><span class="s">'../src/'</span>
 </code></pre></div></td></tr></table></div>
 <p>Ce fichier déclare les <strong>services</strong> de l&#x27;application : les objets que <em>[Symfony]</em> sait fabriquer lui-même (exemple 06). Les lignes 10-11 font de chaque classe du dossier <strong><em>[src]</em></strong> un service. Grâce à la ligne 8 (<strong><em>[autoconfigure]</em></strong>), <em>[Symfony]</em> examine chacune : une classe dont une méthode porte un attribut <strong><em>[#[Route]]</em></strong> devient un <strong>contrôleur</strong>, et ses routes sont ajoutées à la table de routage. Nous n&#x27;écrirons presque plus ces deux fichiers : ils sont les mêmes dans tous les exemples.</p>
 <h3 id="224-execution">2.2.4. <span style="color: #1f4d78">Exécution</span></h3>
@@ -1674,16 +1674,16 @@
 <span class="normal"><a href="#__codelineno-33-7"> 7</a></span>
 <span class="normal"><a href="#__codelineno-33-8"> 8</a></span>
 <span class="normal"><a href="#__codelineno-33-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-33-10">10</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1"></a><span class="mo">03</span><span class="o">-</span><span class="n">reponses</span><span class="o">/</span>
-<a id="__codelineno-33-2" name="__codelineno-33-2"></a><span class="err">├──</span><span class="w"> </span><span class="n">src</span><span class="o">/</span>
-<a id="__codelineno-33-3" name="__codelineno-33-3"></a><span class="err">│</span><span class="w">   </span><span class="err">├──</span><span class="w"> </span><span class="n">Controller</span><span class="o">/</span>
-<a id="__codelineno-33-4" name="__codelineno-33-4"></a><span class="err">│</span><span class="w">   </span><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">ReponsesController</span><span class="p">.</span><span class="na">php</span>
-<a id="__codelineno-33-5" name="__codelineno-33-5"></a><span class="err">│</span><span class="w">   </span><span class="err">├──</span><span class="w"> </span><span class="n">EventListener</span><span class="o">/</span>
-<a id="__codelineno-33-6" name="__codelineno-33-6"></a><span class="err">│</span><span class="w">   </span><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">JsonLisible</span><span class="p">.</span><span class="na">php</span>
-<a id="__codelineno-33-7" name="__codelineno-33-7"></a><span class="err">│</span><span class="w">   </span><span class="err">├──</span><span class="w"> </span><span class="n">Modele</span><span class="o">/</span>
-<a id="__codelineno-33-8" name="__codelineno-33-8"></a><span class="err">│</span><span class="w">   </span><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">Personne</span><span class="p">.</span><span class="na">php</span>
-<a id="__codelineno-33-9" name="__codelineno-33-9"></a><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">Kernel</span><span class="p">.</span><span class="na">php</span>
-<a id="__codelineno-33-10" name="__codelineno-33-10"></a><span class="err">└──</span><span class="w"> </span><span class="p">...</span>
+<span class="normal"><a href="#__codelineno-33-10">10</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1"></a>03-reponses/
+<a id="__codelineno-33-2" name="__codelineno-33-2"></a>├── src/
+<a id="__codelineno-33-3" name="__codelineno-33-3"></a>│   ├── Controller/
+<a id="__codelineno-33-4" name="__codelineno-33-4"></a>│   │   └── ReponsesController.php
+<a id="__codelineno-33-5" name="__codelineno-33-5"></a>│   ├── EventListener/
+<a id="__codelineno-33-6" name="__codelineno-33-6"></a>│   │   └── JsonLisible.php
+<a id="__codelineno-33-7" name="__codelineno-33-7"></a>│   ├── Modele/
+<a id="__codelineno-33-8" name="__codelineno-33-8"></a>│   │   └── Personne.php
+<a id="__codelineno-33-9" name="__codelineno-33-9"></a>│   └── Kernel.php
+<a id="__codelineno-33-10" name="__codelineno-33-10"></a>└── ...
 </code></pre></div></td></tr></table></div>
 <p>Le contrôleur <strong><em>[ReponsesController]</em></strong> associe chaque URL <strong><em>[/reponses/xxx]</em></strong> à une action :</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-34-1">  1</a></span>
@@ -2131,7 +2131,7 @@
 <p>Reste l&#x27;exception imprévue. En mode debug, le navigateur affiche la page d&#x27;erreur de <em>[Symfony]</em> : le type et le message de l&#x27;exception, le fichier et la ligne où elle a été levée, avec le code qui l&#x27;entoure, puis la pile d&#x27;appels, de la plus récente à la plus ancienne :</p>
 <p><img src="images/10000000000002BE000002E5869970DE.png" width="428" height="452" style="width:11.322cm;height:11.95cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000002BE000002E5869970DE.png" /></p>
 <p>La première fonction de la pile est notre action, <strong><em>[erreur]</em></strong>, à la ligne 96 du fichier <strong><em>[ReponsesController.php]</em></strong>. Viennent ensuite les méthodes du noyau qui l&#x27;ont appelée (<strong><em>[HttpKernel::handleRaw]</em></strong>, <strong><em>[HttpKernel::handle]</em></strong>, <strong><em>[Kernel::handle]</em></strong>...), jusqu&#x27;à <strong><em>[public/index.php]</em></strong>. L&#x27;onglet Logs montre les messages du journal émis pendant la requête. C&#x27;est pour tout cela que le mode debug ne doit <strong>jamais</strong> être activé sur un serveur accessible à d&#x27;autres. L&#x27;erreur est aussi écrite dans le <strong>journal</strong> de l&#x27;application, c&#x27;est-à-dire, ici, dans la console du serveur :</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-51-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-51-1" name="__codelineno-51-1"></a><span class="o">[</span><span class="n">Sun</span><span class="w"> </span><span class="n">Sep</span><span class="w"> </span><span class="mi">27</span><span class="w"> </span><span class="mi">11</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">31</span><span class="w"> </span><span class="mi">2026</span><span class="o">]</span><span class="w"> </span><span class="o">[</span><span class="n">critical</span><span class="o">]</span><span class="w"> </span><span class="n">Uncaught</span><span class="w"> </span><span class="n">PHP</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="n">RuntimeException</span><span class="p">:</span><span class="w"> </span><span class="s">"Une erreur imprévue"</span><span class="w"> </span><span class="n">at</span><span class="w"> </span><span class="n">ReponsesController</span><span class="p">.</span><span class="na">php</span><span class="w"> </span><span class="n">line</span><span class="w"> </span><span class="mi">96</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-51-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-51-1" name="__codelineno-51-1"></a>[Sun Sep 27 11:10:31 2026] [critical] Uncaught PHP Exception RuntimeException: "Une erreur imprévue" at ReponsesController.php line 96
 </code></pre></div></td></tr></table></div>
 <p>Sans le mode debug (<strong><em>[APP_ENV=prod]</em></strong> dans le fichier <strong><em>[.env]</em></strong>), la même requête produit une courte page d&#x27;erreur, qui ne révèle rien du code :</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-52-1">1</a></span>
@@ -2143,9 +2143,9 @@
 <span class="normal"><a href="#__codelineno-52-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-52-1" name="__codelineno-52-1"></a>HTTP/1.1 500 Internal Server Error
 <a id="__codelineno-52-2" name="__codelineno-52-2"></a>Content-Type: text/html; charset=UTF-8
 <a id="__codelineno-52-3" name="__codelineno-52-3"></a>...
-<a id="__codelineno-52-4" name="__codelineno-52-4"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"container"</span><span class="p">&gt;</span>
-<a id="__codelineno-52-5" name="__codelineno-52-5"></a>    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Oops! An Error Occurred<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
-<a id="__codelineno-52-6" name="__codelineno-52-6"></a>    <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>The server returned a "500 Internal Server Error".<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+<a id="__codelineno-52-4" name="__codelineno-52-4"></a>&lt;div class="container"&gt;
+<a id="__codelineno-52-5" name="__codelineno-52-5"></a>    &lt;h1&gt;Oops! An Error Occurred&lt;/h1&gt;
+<a id="__codelineno-52-6" name="__codelineno-52-6"></a>    &lt;h2&gt;The server returned a "500 Internal Server Error".&lt;/h2&gt;
 <a id="__codelineno-52-7" name="__codelineno-52-7"></a>...
 </code></pre></div></td></tr></table></div>
 <p>et le document JSON ne contient plus que le code et son libellé (<strong><em>[&quot;detail&quot;:&quot;Not Found&quot;]</em></strong>), sans notre message ni la pile d&#x27;appels. Le chapitre 7 montrera comment afficher une page d&#x27;erreur propre à l&#x27;application. (Après un passage en production, il faut effacer le dossier <strong><em>[var/cache/prod]</em></strong>, ou exécuter <strong><em>[php bin/console cache:clear]</em></strong> : en production, <em>[Symfony]</em> ne vérifie plus si sa configuration a changé.)</p>
@@ -2307,18 +2307,18 @@
 <a id="__codelineno-57-2" name="__codelineno-57-2"></a>Location: /nouvelle
 <a id="__codelineno-57-3" name="__codelineno-57-3"></a>Content-Type: text/html; charset=utf-8
 <a id="__codelineno-57-4" name="__codelineno-57-4"></a>
-<a id="__codelineno-57-5" name="__codelineno-57-5"></a><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<a id="__codelineno-57-6" name="__codelineno-57-6"></a><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
-<a id="__codelineno-57-7" name="__codelineno-57-7"></a>    <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-<a id="__codelineno-57-8" name="__codelineno-57-8"></a>        <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">"UTF-8"</span> <span class="p">/&gt;</span>
-<a id="__codelineno-57-9" name="__codelineno-57-9"></a>        <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">http-equiv</span><span class="o">=</span><span class="s">"refresh"</span> <span class="na">content</span><span class="o">=</span><span class="s">"0;url='/nouvelle'"</span> <span class="p">/&gt;</span>
+<a id="__codelineno-57-5" name="__codelineno-57-5"></a>&lt;!DOCTYPE html&gt;
+<a id="__codelineno-57-6" name="__codelineno-57-6"></a>&lt;html&gt;
+<a id="__codelineno-57-7" name="__codelineno-57-7"></a>    &lt;head&gt;
+<a id="__codelineno-57-8" name="__codelineno-57-8"></a>        &lt;meta charset="UTF-8" /&gt;
+<a id="__codelineno-57-9" name="__codelineno-57-9"></a>        &lt;meta http-equiv="refresh" content="0;url='/nouvelle'" /&gt;
 <a id="__codelineno-57-10" name="__codelineno-57-10"></a>
-<a id="__codelineno-57-11" name="__codelineno-57-11"></a>        <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Redirecting to /nouvelle<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
-<a id="__codelineno-57-12" name="__codelineno-57-12"></a>    <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-<a id="__codelineno-57-13" name="__codelineno-57-13"></a>    <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-<a id="__codelineno-57-14" name="__codelineno-57-14"></a>        Redirecting to <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"/nouvelle"</span><span class="p">&gt;</span>/nouvelle<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>.
-<a id="__codelineno-57-15" name="__codelineno-57-15"></a>    <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-<a id="__codelineno-57-16" name="__codelineno-57-16"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+<a id="__codelineno-57-11" name="__codelineno-57-11"></a>        &lt;title&gt;Redirecting to /nouvelle&lt;/title&gt;
+<a id="__codelineno-57-12" name="__codelineno-57-12"></a>    &lt;/head&gt;
+<a id="__codelineno-57-13" name="__codelineno-57-13"></a>    &lt;body&gt;
+<a id="__codelineno-57-14" name="__codelineno-57-14"></a>        Redirecting to &lt;a href="/nouvelle"&gt;/nouvelle&lt;/a&gt;.
+<a id="__codelineno-57-15" name="__codelineno-57-15"></a>    &lt;/body&gt;
+<a id="__codelineno-57-16" name="__codelineno-57-16"></a>&lt;/html&gt;
 </code></pre></div></td></tr></table></div>
 <p>L&#x27;entête <strong><em>[Location]</em></strong> contient l&#x27;adresse telle que l&#x27;action l&#x27;a donnée, relative au site : le navigateur la complète avec le protocole, la machine et le port de la page en cours. La réponse a aussi un petit corps HTML, pour un client qui ne suivrait pas les redirections. L&#x27;option <strong><em>[-L]</em></strong> de <em>[curl]</em> suit la redirection, comme le ferait un navigateur :</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-58-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-58-1" name="__codelineno-58-1"></a>curl -L http://localhost:8000/ancienne
@@ -2882,23 +2882,23 @@
 <span class="normal"><a href="#__codelineno-80-18">18</a></span>
 <span class="normal"><a href="#__codelineno-80-19">19</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-80-1" name="__codelineno-80-1"></a><span class="c1"># config/services.yaml : les SERVICES de l'application, que le CONTENEUR de</span>
 <a id="__codelineno-80-2" name="__codelineno-80-2"></a><span class="c1"># Symfony sait créer et fournir à ceux qui en ont besoin</span>
-<a id="__codelineno-80-3" name="__codelineno-80-3"></a><span class="n">services</span><span class="p">:</span>
-<a id="__codelineno-80-4" name="__codelineno-80-4"></a>    <span class="c1"># les réglages par défaut des services déclarés dans ce fichier</span>
-<a id="__codelineno-80-5" name="__codelineno-80-5"></a>    <span class="n">_defaults</span><span class="p">:</span>
-<a id="__codelineno-80-6" name="__codelineno-80-6"></a>        <span class="c1"># autowire : les paramètres du constructeur sont fournis d'après leur TYPE</span>
-<a id="__codelineno-80-7" name="__codelineno-80-7"></a>        <span class="n">autowire</span><span class="p">:</span> <span class="n">true</span>
-<a id="__codelineno-80-8" name="__codelineno-80-8"></a>        <span class="c1"># autoconfigure : Symfony configure une classe d'après ses attributs et ses</span>
-<a id="__codelineno-80-9" name="__codelineno-80-9"></a>        <span class="c1"># interfaces (#[Route] en fait un contrôleur, #[AsEventListener] un écouteur)</span>
-<a id="__codelineno-80-10" name="__codelineno-80-10"></a>        <span class="n">autoconfigure</span><span class="p">:</span> <span class="n">true</span>
+<a id="__codelineno-80-3" name="__codelineno-80-3"></a><span class="nt">services</span><span class="p">:</span>
+<a id="__codelineno-80-4" name="__codelineno-80-4"></a><span class="w">    </span><span class="c1"># les réglages par défaut des services déclarés dans ce fichier</span>
+<a id="__codelineno-80-5" name="__codelineno-80-5"></a><span class="w">    </span><span class="nt">_defaults</span><span class="p">:</span>
+<a id="__codelineno-80-6" name="__codelineno-80-6"></a><span class="w">        </span><span class="c1"># autowire : les paramètres du constructeur sont fournis d'après leur TYPE</span>
+<a id="__codelineno-80-7" name="__codelineno-80-7"></a><span class="w">        </span><span class="nt">autowire</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a id="__codelineno-80-8" name="__codelineno-80-8"></a><span class="w">        </span><span class="c1"># autoconfigure : Symfony configure une classe d'après ses attributs et ses</span>
+<a id="__codelineno-80-9" name="__codelineno-80-9"></a><span class="w">        </span><span class="c1"># interfaces (#[Route] en fait un contrôleur, #[AsEventListener] un écouteur)</span>
+<a id="__codelineno-80-10" name="__codelineno-80-10"></a><span class="w">        </span><span class="nt">autoconfigure</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <a id="__codelineno-80-11" name="__codelineno-80-11"></a>
-<a id="__codelineno-80-12" name="__codelineno-80-12"></a>    <span class="c1"># toutes les classes du dossier src/ deviennent des services, désignés par le</span>
-<a id="__codelineno-80-13" name="__codelineno-80-13"></a>    <span class="c1"># nom de leur classe</span>
-<a id="__codelineno-80-14" name="__codelineno-80-14"></a>    <span class="n">App</span>\<span class="p">:</span>
-<a id="__codelineno-80-15" name="__codelineno-80-15"></a>        <span class="n">resource</span><span class="p">:</span> <span class="s1">'../src/'</span>
+<a id="__codelineno-80-12" name="__codelineno-80-12"></a><span class="w">    </span><span class="c1"># toutes les classes du dossier src/ deviennent des services, désignés par le</span>
+<a id="__codelineno-80-13" name="__codelineno-80-13"></a><span class="w">    </span><span class="c1"># nom de leur classe</span>
+<a id="__codelineno-80-14" name="__codelineno-80-14"></a><span class="w">    </span><span class="nt">App\</span><span class="p">:</span>
+<a id="__codelineno-80-15" name="__codelineno-80-15"></a><span class="w">        </span><span class="nt">resource</span><span class="p">:</span><span class="w"> </span><span class="s">'../src/'</span>
 <a id="__codelineno-80-16" name="__codelineno-80-16"></a>
-<a id="__codelineno-80-17" name="__codelineno-80-17"></a>    <span class="c1"># le CHOIX de l'implémentation : quand une classe demande un ProduitsService,</span>
-<a id="__codelineno-80-18" name="__codelineno-80-18"></a>    <span class="c1"># le conteneur lui fournit le service ProduitsServiceMemoire</span>
-<a id="__codelineno-80-19" name="__codelineno-80-19"></a>    <span class="n">App</span>\<span class="n">Produits</span>\<span class="n">ProduitsService</span><span class="p">:</span> <span class="s1">'@App\Produits\ProduitsServiceMemoire'</span>
+<a id="__codelineno-80-17" name="__codelineno-80-17"></a><span class="w">    </span><span class="c1"># le CHOIX de l'implémentation : quand une classe demande un ProduitsService,</span>
+<a id="__codelineno-80-18" name="__codelineno-80-18"></a><span class="w">    </span><span class="c1"># le conteneur lui fournit le service ProduitsServiceMemoire</span>
+<a id="__codelineno-80-19" name="__codelineno-80-19"></a><span class="w">    </span><span class="nt">App\Produits\ProduitsService</span><span class="p">:</span><span class="w"> </span><span class="s">'@App\Produits\ProduitsServiceMemoire'</span>
 </code></pre></div></td></tr></table></div>
 <ul>
 <li>lignes 4-10 : les réglages par défaut des services de ce fichier : <strong><em>[autowire]</em></strong> (la <strong>liaison automatique</strong>) fait fournir par le conteneur les paramètres de leur constructeur d&#x27;après leur type ; <strong><em>[autoconfigure]</em></strong> fait configurer chaque service d&#x27;après ses attributs et ses interfaces (exemple 02) ;</li>
@@ -2916,14 +2916,14 @@
 <span class="normal"><a href="#__codelineno-82-5">5</a></span>
 <span class="normal"><a href="#__codelineno-82-6">6</a></span>
 <span class="normal"><a href="#__codelineno-82-7">7</a></span>
-<span class="normal"><a href="#__codelineno-82-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-82-1" name="__codelineno-82-1"></a><span class="n">Autowirable</span><span class="w"> </span><span class="n">Types</span>
-<a id="__codelineno-82-2" name="__codelineno-82-2"></a><span class="o">=================</span>
+<span class="normal"><a href="#__codelineno-82-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-82-1" name="__codelineno-82-1"></a>Autowirable Types
+<a id="__codelineno-82-2" name="__codelineno-82-2"></a>=================
 <a id="__codelineno-82-3" name="__codelineno-82-3"></a>
-<a id="__codelineno-82-4" name="__codelineno-82-4"></a><span class="w"> </span><span class="n">Use</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">following</span><span class="w"> </span><span class="n">classes</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">interfaces</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="k">type</span><span class="o">-</span><span class="n">hints</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="k">constructor</span><span class="w"> </span><span class="n">arguments</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">autowire</span><span class="w"> </span><span class="n">services</span><span class="p">.</span>
-<a id="__codelineno-82-5" name="__codelineno-82-5"></a><span class="w"> </span><span class="k">Add</span><span class="w"> </span><span class="o">#</span><span class="p">[</span><span class="n">Target</span><span class="p">(</span><span class="s1">'name'</span><span class="p">)]</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">argument</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="k">select</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="k">specific</span><span class="w"> </span><span class="n">variant</span><span class="p">.</span>
-<a id="__codelineno-82-6" name="__codelineno-82-6"></a><span class="w"> </span><span class="p">(</span><span class="k">only</span><span class="w"> </span><span class="n">showing</span><span class="w"> </span><span class="n">classes</span><span class="o">/</span><span class="n">interfaces</span><span class="w"> </span><span class="n">matching</span><span class="w"> </span><span class="n">Produits</span><span class="p">)</span>
+<a id="__codelineno-82-4" name="__codelineno-82-4"></a> Use the following classes &amp; interfaces as type-hints in constructor arguments to autowire services.
+<a id="__codelineno-82-5" name="__codelineno-82-5"></a> Add #[Target('name')] to the argument to select a specific variant.
+<a id="__codelineno-82-6" name="__codelineno-82-6"></a> (only showing classes/interfaces matching Produits)
 <a id="__codelineno-82-7" name="__codelineno-82-7"></a>
-<a id="__codelineno-82-8" name="__codelineno-82-8"></a><span class="w"> </span><span class="n">App</span><span class="err">\</span><span class="n">Produits</span><span class="err">\</span><span class="n">ProduitsService</span><span class="w"> </span><span class="err">→</span><span class="w"> </span><span class="n">App</span><span class="err">\</span><span class="n">Produits</span><span class="err">\</span><span class="n">ProduitsServiceMemoire</span>
+<a id="__codelineno-82-8" name="__codelineno-82-8"></a> App\Produits\ProduitsService → App\Produits\ProduitsServiceMemoire
 </code></pre></div></td></tr></table></div>
 <p>Un mot, enfin, sur la durée de vie de ce service partagé. Nous l&#x27;avons vu à l&#x27;exemple 01 : en <em>[PHP]</em>, l&#x27;application est reconstruite à chaque requête, avec son conteneur. Le service est donc unique <strong>pour une requête</strong> : toutes les classes qui le demandent pendant le traitement d&#x27;une requête reçoivent le même objet, mais la requête suivante en recevra un nouveau. Pour un service qui ne fait que lire des données fixes, comme celui-ci, cela ne change rien. Pour un service dont les données changent (la liste des tâches de l&#x27;exemple 20), il faudra ranger ces données ailleurs que dans l&#x27;objet : dans un fichier, une base de données, le cache de <em>[Symfony]</em>. En contrepartie, un service <em>[PHP]</em> ne peut pas être utilisé par deux requêtes à la fois : chaque requête a le sien. Les précautions que demandent les services partagés par plusieurs requêtes simultanées en <em>[Java]</em>, en <em>[C#]</em> ou en <em>[Python]</em> (les verrous, notamment) sont inutiles ici.</p>
 <h3 id="267-execution">2.6.7. <span style="color: #1f4d78">Exécution</span></h3>

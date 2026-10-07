@@ -835,31 +835,31 @@
 <span class="normal"><a href="#__codelineno-0-22">22</a></span>
 <span class="normal"><a href="#__codelineno-0-23">23</a></span>
 <span class="normal"><a href="#__codelineno-0-24">24</a></span>
-<span class="normal"><a href="#__codelineno-0-25">25</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="mi">22</span><span class="o">-</span><span class="n">i18n</span><span class="o">/</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="err">├──</span><span class="w"> </span><span class="n">config</span><span class="o">/</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">packages</span><span class="o">/</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="err">│</span><span class="w">       </span><span class="err">└──</span><span class="w"> </span><span class="n">framework</span><span class="p">.</span><span class="na">yaml</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="err">├──</span><span class="w"> </span><span class="n">src</span><span class="o">/</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="err">│</span><span class="w">   </span><span class="err">├──</span><span class="w"> </span><span class="n">Controller</span><span class="o">/</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="err">│</span><span class="w">   </span><span class="err">│</span><span class="w">   </span><span class="err">├──</span><span class="w"> </span><span class="n">LangueController</span><span class="p">.</span><span class="na">php</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="err">│</span><span class="w">   </span><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">PagesController</span><span class="p">.</span><span class="na">php</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="err">│</span><span class="w">   </span><span class="err">├──</span><span class="w"> </span><span class="n">EventListener</span><span class="o">/</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="err">│</span><span class="w">   </span><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">DefinirLangue</span><span class="p">.</span><span class="na">php</span>
-<a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="err">│</span><span class="w">   </span><span class="err">├──</span><span class="w"> </span><span class="n">Modele</span><span class="o">/</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="err">│</span><span class="w">   </span><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">Produit</span><span class="p">.</span><span class="na">php</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">Twig</span><span class="o">/</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="err">│</span><span class="w">       </span><span class="err">└──</span><span class="w"> </span><span class="n">FormatsExtension</span><span class="p">.</span><span class="na">php</span>
-<a id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="err">├──</span><span class="w"> </span><span class="n">templates</span><span class="o">/</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="err">│</span><span class="w">   </span><span class="err">├──</span><span class="w"> </span><span class="n">fragments</span><span class="o">/</span>
-<a id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="err">│</span><span class="w">   </span><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">navbar</span><span class="p">.</span><span class="na">html</span><span class="p">.</span><span class="na">twig</span>
-<a id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="err">│</span><span class="w">   </span><span class="err">├──</span><span class="w"> </span><span class="n">layout</span><span class="p">.</span><span class="na">html</span><span class="p">.</span><span class="na">twig</span>
-<a id="__codelineno-0-19" name="__codelineno-0-19"></a><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">pages</span><span class="o">/</span>
-<a id="__codelineno-0-20" name="__codelineno-0-20"></a><span class="err">│</span><span class="w">       </span><span class="err">├──</span><span class="w"> </span><span class="n">accueil</span><span class="p">.</span><span class="na">html</span><span class="p">.</span><span class="na">twig</span>
-<a id="__codelineno-0-21" name="__codelineno-0-21"></a><span class="err">│</span><span class="w">       </span><span class="err">└──</span><span class="w"> </span><span class="n">produits</span><span class="p">.</span><span class="na">html</span><span class="p">.</span><span class="na">twig</span>
-<a id="__codelineno-0-22" name="__codelineno-0-22"></a><span class="err">├──</span><span class="w"> </span><span class="n">translations</span><span class="o">/</span>
-<a id="__codelineno-0-23" name="__codelineno-0-23"></a><span class="err">│</span><span class="w">   </span><span class="err">├──</span><span class="w"> </span><span class="n">messages</span><span class="o">+</span><span class="n">intl</span><span class="o">-</span><span class="n">icu</span><span class="p">.</span><span class="na">en</span><span class="p">.</span><span class="na">yaml</span>
-<a id="__codelineno-0-24" name="__codelineno-0-24"></a><span class="err">│</span><span class="w">   </span><span class="err">└──</span><span class="w"> </span><span class="n">messages</span><span class="o">+</span><span class="n">intl</span><span class="o">-</span><span class="n">icu</span><span class="p">.</span><span class="na">fr</span><span class="p">.</span><span class="na">yaml</span>
-<a id="__codelineno-0-25" name="__codelineno-0-25"></a><span class="err">└──</span><span class="w"> </span><span class="p">...</span>
+<span class="normal"><a href="#__codelineno-0-25">25</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a>22-i18n/
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>├── config/
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a>│   └── packages/
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a>│       └── framework.yaml
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a>├── src/
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a>│   ├── Controller/
+<a id="__codelineno-0-7" name="__codelineno-0-7"></a>│   │   ├── LangueController.php
+<a id="__codelineno-0-8" name="__codelineno-0-8"></a>│   │   └── PagesController.php
+<a id="__codelineno-0-9" name="__codelineno-0-9"></a>│   ├── EventListener/
+<a id="__codelineno-0-10" name="__codelineno-0-10"></a>│   │   └── DefinirLangue.php
+<a id="__codelineno-0-11" name="__codelineno-0-11"></a>│   ├── Modele/
+<a id="__codelineno-0-12" name="__codelineno-0-12"></a>│   │   └── Produit.php
+<a id="__codelineno-0-13" name="__codelineno-0-13"></a>│   └── Twig/
+<a id="__codelineno-0-14" name="__codelineno-0-14"></a>│       └── FormatsExtension.php
+<a id="__codelineno-0-15" name="__codelineno-0-15"></a>├── templates/
+<a id="__codelineno-0-16" name="__codelineno-0-16"></a>│   ├── fragments/
+<a id="__codelineno-0-17" name="__codelineno-0-17"></a>│   │   └── navbar.html.twig
+<a id="__codelineno-0-18" name="__codelineno-0-18"></a>│   ├── layout.html.twig
+<a id="__codelineno-0-19" name="__codelineno-0-19"></a>│   └── pages/
+<a id="__codelineno-0-20" name="__codelineno-0-20"></a>│       ├── accueil.html.twig
+<a id="__codelineno-0-21" name="__codelineno-0-21"></a>│       └── produits.html.twig
+<a id="__codelineno-0-22" name="__codelineno-0-22"></a>├── translations/
+<a id="__codelineno-0-23" name="__codelineno-0-23"></a>│   ├── messages+intl-icu.en.yaml
+<a id="__codelineno-0-24" name="__codelineno-0-24"></a>│   └── messages+intl-icu.fr.yaml
+<a id="__codelineno-0-25" name="__codelineno-0-25"></a>└── ...
 </code></pre></div></td></tr></table></div>
 <h3 id="511-la-configuration-configpackagesframeworkyaml">5.1.1. <span style="color: #1f4d78">La configuration : config/packages/framework.yaml</span></h3>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1"> 1</a></span>
@@ -872,17 +872,17 @@
 <span class="normal"><a href="#__codelineno-1-8"> 8</a></span>
 <span class="normal"><a href="#__codelineno-1-9"> 9</a></span>
 <span class="normal"><a href="#__codelineno-1-10">10</a></span>
-<span class="normal"><a href="#__codelineno-1-11">11</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="err">#</span><span class="w"> </span><span class="n">config</span><span class="o">/</span><span class="n">packages</span><span class="o">/</span><span class="n">framework</span><span class="p">.</span><span class="na">yaml</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">la</span><span class="w"> </span><span class="n">configuration</span><span class="w"> </span><span class="n">du</span><span class="w"> </span><span class="n">FrameworkBundle</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="nl">framework</span><span class="p">:</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="w">    </span><span class="n">secret</span><span class="p">:</span><span class="w"> </span><span class="err">'</span><span class="o">%</span><span class="n">env</span><span class="p">(</span><span class="n">APP_SECRET</span><span class="p">)</span><span class="o">%</span><span class="err">'</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="w">    </span><span class="err">#</span><span class="w"> </span><span class="n">la</span><span class="w"> </span><span class="n">langue</span><span class="w"> </span><span class="n">par</span><span class="w"> </span><span class="n">défaut</span><span class="p">,</span><span class="w"> </span><span class="n">et</span><span class="w"> </span><span class="n">les</span><span class="w"> </span><span class="n">langues</span><span class="w"> </span><span class="n">gérées</span><span class="w"> </span><span class="n">par</span><span class="w"> </span><span class="n">l</span><span class="err">'</span><span class="n">application</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="w">    </span><span class="n">default_locale</span><span class="p">:</span><span class="w"> </span><span class="n">fr</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="w">    </span><span class="n">enabled_locales</span><span class="p">:</span><span class="w"> </span><span class="o">[</span><span class="err">'</span><span class="n">fr</span><span class="err">'</span><span class="p">,</span><span class="w"> </span><span class="err">'</span><span class="n">en</span><span class="err">'</span><span class="o">]</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="w">    </span><span class="err">#</span><span class="w"> </span><span class="n">le</span><span class="w"> </span><span class="n">service</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">TRADUCTION</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="n">ses</span><span class="w"> </span><span class="n">dictionnaires</span><span class="w"> </span><span class="n">sont</span><span class="w"> </span><span class="n">dans</span><span class="w"> </span><span class="n">le</span><span class="w"> </span><span class="n">dossier</span><span class="w"> </span><span class="n">translations</span><span class="o">/</span><span class="p">.</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="w">    </span><span class="err">#</span><span class="w"> </span><span class="n">Une</span><span class="w"> </span><span class="n">clé</span><span class="w"> </span><span class="n">absente</span><span class="w"> </span><span class="n">du</span><span class="w"> </span><span class="n">dictionnaire</span><span class="w"> </span><span class="n">anglais</span><span class="w"> </span><span class="n">est</span><span class="w"> </span><span class="n">cherchée</span><span class="w"> </span><span class="n">dans</span><span class="w"> </span><span class="n">le</span><span class="w"> </span><span class="n">dictionnaire</span><span class="w"> </span><span class="n">français</span>
-<a id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="w">    </span><span class="n">translator</span><span class="p">:</span>
-<a id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="w">        </span><span class="n">default_path</span><span class="p">:</span><span class="w"> </span><span class="err">'</span><span class="o">%</span><span class="n">kernel</span><span class="p">.</span><span class="na">project_dir</span><span class="o">%/</span><span class="n">translations</span><span class="err">'</span>
-<a id="__codelineno-1-11" name="__codelineno-1-11"></a><span class="w">        </span><span class="n">fallbacks</span><span class="p">:</span><span class="w"> </span><span class="o">[</span><span class="err">'</span><span class="n">fr</span><span class="err">'</span><span class="o">]</span>
+<span class="normal"><a href="#__codelineno-1-11">11</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="c1"># config/packages/framework.yaml : la configuration du FrameworkBundle</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="nt">framework</span><span class="p">:</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="w">    </span><span class="nt">secret</span><span class="p">:</span><span class="w"> </span><span class="s">'%env(APP_SECRET)%'</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="w">    </span><span class="c1"># la langue par défaut, et les langues gérées par l'application</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="w">    </span><span class="nt">default_locale</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">fr</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="w">    </span><span class="nt">enabled_locales</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">'fr'</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">'en'</span><span class="p p-Indicator">]</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="w">    </span><span class="c1"># le service de TRADUCTION ; ses dictionnaires sont dans le dossier translations/.</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="w">    </span><span class="c1"># Une clé absente du dictionnaire anglais est cherchée dans le dictionnaire français</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="w">    </span><span class="nt">translator</span><span class="p">:</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="w">        </span><span class="nt">default_path</span><span class="p">:</span><span class="w"> </span><span class="s">'%kernel.project_dir%/translations'</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11"></a><span class="w">        </span><span class="nt">fallbacks</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">'fr'</span><span class="p p-Indicator">]</span>
 </code></pre></div></td></tr></table></div>
 <ul>
 <li>ligne 5 : la langue par défaut de l&#x27;application, celle d&#x27;une requête qui n&#x27;en précise pas (exemple 09) ;</li>
@@ -905,21 +905,21 @@
 <span class="normal"><a href="#__codelineno-2-12">12</a></span>
 <span class="normal"><a href="#__codelineno-2-13">13</a></span>
 <span class="normal"><a href="#__codelineno-2-14">14</a></span>
-<span class="normal"><a href="#__codelineno-2-15">15</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="gh"># translations/messages+intl-icu.fr.yaml : le dictionnaire français.</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="gh"># messages : le domaine par défaut ; +intl-icu : les messages suivent la syntaxe ICU</span>
-<a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="gh"># ({nom} : un paramètre ; {n, plural, ...} : un message qui dépend d'un nombre)</span>
-<a id="__codelineno-2-4" name="__codelineno-2-4"></a>MENU:
-<a id="__codelineno-2-5" name="__codelineno-2-5"></a>    ACCUEIL: Accueil
-<a id="__codelineno-2-6" name="__codelineno-2-6"></a>    PRODUITS: Produits
-<a id="__codelineno-2-7" name="__codelineno-2-7"></a>ACCUEIL:
-<a id="__codelineno-2-8" name="__codelineno-2-8"></a>    TITRE: Bienvenue
-<a id="__codelineno-2-9" name="__codelineno-2-9"></a>    BONJOUR: 'Bonjour {nom} !'
-<a id="__codelineno-2-10" name="__codelineno-2-10"></a>    DATE: 'Nous sommes le {date}.'
-<a id="__codelineno-2-11" name="__codelineno-2-11"></a>PRODUITS:
-<a id="__codelineno-2-12" name="__codelineno-2-12"></a>    TITRE: Nos produits
-<a id="__codelineno-2-13" name="__codelineno-2-13"></a>    NOM: Produit
-<a id="__codelineno-2-14" name="__codelineno-2-14"></a>    PRIX: Prix
-<a id="__codelineno-2-15" name="__codelineno-2-15"></a>    NOMBRE: '{n, plural, =0 {Aucun produit} one {# produit} other {# produits}} au catalogue.'
+<span class="normal"><a href="#__codelineno-2-15">15</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="c1"># translations/messages+intl-icu.fr.yaml : le dictionnaire français.</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="c1"># messages : le domaine par défaut ; +intl-icu : les messages suivent la syntaxe ICU</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="c1"># ({nom} : un paramètre ; {n, plural, ...} : un message qui dépend d'un nombre)</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="nt">MENU</span><span class="p">:</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5"></a><span class="w">    </span><span class="nt">ACCUEIL</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Accueil</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="w">    </span><span class="nt">PRODUITS</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Produits</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7"></a><span class="nt">ACCUEIL</span><span class="p">:</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8"></a><span class="w">    </span><span class="nt">TITRE</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Bienvenue</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9"></a><span class="w">    </span><span class="nt">BONJOUR</span><span class="p">:</span><span class="w"> </span><span class="s">'Bonjour</span><span class="nv"> </span><span class="s">{nom}</span><span class="nv"> </span><span class="s">!'</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10"></a><span class="w">    </span><span class="nt">DATE</span><span class="p">:</span><span class="w"> </span><span class="s">'Nous</span><span class="nv"> </span><span class="s">sommes</span><span class="nv"> </span><span class="s">le</span><span class="nv"> </span><span class="s">{date}.'</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11"></a><span class="nt">PRODUITS</span><span class="p">:</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12"></a><span class="w">    </span><span class="nt">TITRE</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Nos produits</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13"></a><span class="w">    </span><span class="nt">NOM</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Produit</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14"></a><span class="w">    </span><span class="nt">PRIX</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Prix</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15"></a><span class="w">    </span><span class="nt">NOMBRE</span><span class="p">:</span><span class="w"> </span><span class="s">'{n,</span><span class="nv"> </span><span class="s">plural,</span><span class="nv"> </span><span class="s">=0</span><span class="nv"> </span><span class="s">{Aucun</span><span class="nv"> </span><span class="s">produit}</span><span class="nv"> </span><span class="s">one</span><span class="nv"> </span><span class="s">{#</span><span class="nv"> </span><span class="s">produit}</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">{#</span><span class="nv"> </span><span class="s">produits}}</span><span class="nv"> </span><span class="s">au</span><span class="nv"> </span><span class="s">catalogue.'</span>
 </code></pre></div></td></tr></table></div>
 <p>Le nom du fichier est fait de trois parties : le domaine (<strong><em>[messages]</em></strong>, le domaine par défaut), le suffixe <strong><em>[+intl-icu]</em></strong>, qui annonce des messages au format ICU, et la langue (<strong><em>[fr]</em></strong>). Les clés sont regroupées par thème grâce à l&#x27;imbrication du YAML : le texte « Accueil » du menu a pour clé <strong><em>[MENU.ACCUEIL]</em></strong>, les niveaux étant séparés par un point. Un texte peut contenir des <strong>paramètres</strong>, écrits <strong><em>[{nom}]</em></strong>, remplacés au moment de la traduction.</p>
 <ul>
@@ -939,19 +939,19 @@
 <span class="normal"><a href="#__codelineno-3-10">10</a></span>
 <span class="normal"><a href="#__codelineno-3-11">11</a></span>
 <span class="normal"><a href="#__codelineno-3-12">12</a></span>
-<span class="normal"><a href="#__codelineno-3-13">13</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="gh"># translations/messages+intl-icu.en.yaml : le dictionnaire anglais ; mêmes clés</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2"></a>MENU:
-<a id="__codelineno-3-3" name="__codelineno-3-3"></a>    ACCUEIL: Home
-<a id="__codelineno-3-4" name="__codelineno-3-4"></a>    PRODUITS: Products
-<a id="__codelineno-3-5" name="__codelineno-3-5"></a>ACCUEIL:
-<a id="__codelineno-3-6" name="__codelineno-3-6"></a>    TITRE: Welcome
-<a id="__codelineno-3-7" name="__codelineno-3-7"></a>    BONJOUR: 'Hello {nom}!'
-<a id="__codelineno-3-8" name="__codelineno-3-8"></a>    DATE: 'Today is {date}.'
-<a id="__codelineno-3-9" name="__codelineno-3-9"></a>PRODUITS:
-<a id="__codelineno-3-10" name="__codelineno-3-10"></a>    TITRE: Our products
-<a id="__codelineno-3-11" name="__codelineno-3-11"></a>    NOM: Product
-<a id="__codelineno-3-12" name="__codelineno-3-12"></a>    PRIX: Price
-<a id="__codelineno-3-13" name="__codelineno-3-13"></a>    NOMBRE: '{n, plural, =0 {No products} one {# product} other {# products}} in the catalogue.'
+<span class="normal"><a href="#__codelineno-3-13">13</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="c1"># translations/messages+intl-icu.en.yaml : le dictionnaire anglais ; mêmes clés</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="nt">MENU</span><span class="p">:</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="w">    </span><span class="nt">ACCUEIL</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Home</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">    </span><span class="nt">PRODUITS</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Products</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="nt">ACCUEIL</span><span class="p">:</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="w">    </span><span class="nt">TITRE</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Welcome</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7"></a><span class="w">    </span><span class="nt">BONJOUR</span><span class="p">:</span><span class="w"> </span><span class="s">'Hello</span><span class="nv"> </span><span class="s">{nom}!'</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="w">    </span><span class="nt">DATE</span><span class="p">:</span><span class="w"> </span><span class="s">'Today</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">{date}.'</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9"></a><span class="nt">PRODUITS</span><span class="p">:</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10"></a><span class="w">    </span><span class="nt">TITRE</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Our products</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11"></a><span class="w">    </span><span class="nt">NOM</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Product</span>
+<a id="__codelineno-3-12" name="__codelineno-3-12"></a><span class="w">    </span><span class="nt">PRIX</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Price</span>
+<a id="__codelineno-3-13" name="__codelineno-3-13"></a><span class="w">    </span><span class="nt">NOMBRE</span><span class="p">:</span><span class="w"> </span><span class="s">'{n,</span><span class="nv"> </span><span class="s">plural,</span><span class="nv"> </span><span class="s">=0</span><span class="nv"> </span><span class="s">{No</span><span class="nv"> </span><span class="s">products}</span><span class="nv"> </span><span class="s">one</span><span class="nv"> </span><span class="s">{#</span><span class="nv"> </span><span class="s">product}</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">{#</span><span class="nv"> </span><span class="s">products}}</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">catalogue.'</span>
 </code></pre></div></td></tr></table></div>
 <p>Sans le suffixe <strong><em>[+intl-icu]</em></strong>, les paramètres s&#x27;écriraient <strong><em>[%nom%]</em></strong>, et le pluriel avec une syntaxe propre à <em>[Symfony]</em> (<strong><em>[{0} Aucun produit|{1} Un produit|]1,Inf[ %n% produits]</em></strong>). Le format ICU est celui que recommande aujourd&#x27;hui la documentation de <em>[Symfony]</em>.</p>
 <h3 id="513-la-langue-de-chaque-requete-srceventlistenerdefinirlanguephp">5.1.3. <span style="color: #1f4d78">La langue de chaque requête : src/EventListener/DefinirLangue.php</span></h3>
